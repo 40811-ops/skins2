@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background: #999;
+}
+section{
+    width: 25%;
+    height: auto;
+    background: #ccc;
+    margin-left: 37.5%;
+    margin-top: 10vh;
+    float: left; /* descolar do main */
+    border-radius: 12px;
+    box-shadow: 1px 1px 3px #333;
+    padding: 1%;
+}
+section h2{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+section input{
+    width: 100%;
+    height: 35px;
+    margin-top: 2vh;
+    border: 0;
+    border-radius: 9px;
+    text-indent: 5%;
+    outline: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 0.85rem;
+    color: #333;
+}
+section button{
+    width: 100%;
+    height: 35px;
+    margin-top: 2vh;
+    border: 0;
+    border-radius: 9px;
+    text-indent: 5%;
+    outline: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 0.85rem;
+    color: #fff;
+    background: #333;
+    font-weight: bold;
+}
