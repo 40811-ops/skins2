@@ -19,7 +19,7 @@ header{
 
 .game{
     width: 100%;
-    height: 40vh;
+    height: 60vh;
     background: #ccc;
     float: left;
     padding: 1%;
@@ -47,37 +47,50 @@ footer{
 
 .skin{
     background: #fff;
-    height: 27vh;
+    height: 50vh;
     width: 19%;
     float: left;
     margin-left: 12px;
     margin-top: 20px;
+    text-align: center;
     border-radius: 30px;
-    display: flex;
+    font-family: "Inter", sans-serif;
 }
 
 .skin img{
-    margin-top: 5vh;
-    margin-left: 10px;
-    height: 100px;
+    height: 170px;
     width: auto;
+    margin-top: 30px;
+    border-radius: 15px;
 }
 
 #valorant img{
-    margin-top: 75px;
-    border: 2px solid #F74352;
-    height: 50px;
-    width: auto;
-    border-radius: 10px;
+    width: 90%;
+    height: auto;
+    margin-top: 12vh;
 }
 
-#cs2 img{
-    border: 2px solid #DE8315;
-    border-radius: 10px;
+#valorant p{
+    margin-top: 7vh;   
 }
 
-.texto{
-    margin-left: 10px;
-    height: 20vh;
-    margin-top: 25px;
+
+.skin h1{
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.skin p{
+    margin-top: 20px;
+    margin-right: 50%;
+    font-weight: 600;
+}
+
+button{
+    background: #3a7d44;
+    width: 85%;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 10px;
+    color: #fff;
 }
