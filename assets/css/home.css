@@ -54,3 +54,10 @@ footer{
     margin-top: 20px;
     border-radius: 30px;
 }
+
+.skin img{
+    width: 50%;
+    height: auto;
+    margin-top: 5vh;
+    margin-left: 10px;
+}
