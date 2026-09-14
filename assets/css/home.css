@@ -12,14 +12,14 @@ main{
 
 header{
     width: 100%;
-    height: 20vh;
+    height: 10vh;
     float: left;
     background: #000;
 }
 
 .game{
     width: 100%;
-    height: 35vh;
+    height: 40vh;
     background: #ccc;
     float: left;
     padding: 1%;
@@ -47,17 +47,36 @@ footer{
 
 .skin{
     background: #fff;
-    height: 22vh;
+    height: 27vh;
     width: 19%;
     float: left;
     margin-left: 12px;
     margin-top: 20px;
     border-radius: 30px;
+    display: flex;
 }
 
 .skin img{
-    width: 50%;
-    height: auto;
     margin-top: 5vh;
+    margin-left: 10px;
+    height: 100px;
+    width: auto;
+}
+
+#valorant img{
+    margin-top: 75px;
+    border: 2px solid #F74352;
+    height: 50px;
+    width: auto;
+    border-radius: 10px;
+}
+
+#cs2 img{
+    border: 2px solid #DE8315;
+    border-radius: 10px;
+}
+
+.texto{
+    background: #000;
     margin-left: 10px;
 }
