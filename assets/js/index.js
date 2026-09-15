@@ -11,9 +11,3 @@ document.querySelectorAll('.alternar').forEach(link => {
     login.hidden = !login.hidden;
   });
 });
-
-const botaoLogin = document.querySelector('#login .botao');
-
-botaoLogin.addEventListener('click', () => {
-  window.location.href = 'home.html';
-});
